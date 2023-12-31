@@ -2,7 +2,7 @@ export default function Menu() {
     const menuItems = [
         {
             name: "Thunderous Thor's Steaks",
-            description: "Rich and powerful steak. Will make your head explode.",
+            description: "Rich and powerful steak. You can't lift it off the plate.",
             price: "25 Gold Pieces"
         },
         {
