@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'angarsRunes';
+    src: url('./angars-runes.ttf');
+    font-weight: 600;
+    font-style: regular;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+#logo {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+}
+
+#logo h1 {
+    font-family: 'angarsRunes';
+}
+
+#logo img {
+    height: 13rem;
+    width: auto;
+    margin: .3rem 1rem;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    height: 15%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+#navbar div {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#navbar button {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    font-size: 1.8rem;
+    background: rgba(0, 0, 0, .2);
+    border-radius: .5rem;
+    padding: .5rem;
+    position: absolute;
+}
+
+#navbar button img {
+    height: 6rem;
+    width: auto;
+    position: absolute;
+    top: -50%;
+    left: 0%;
+}
+
+#review-div {
+    padding: 0 1rem;
+    font-size: .9rem;
+    white-space: pre-line;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.menu-item {
+    margin: 1rem;
+    border-bottom: .2rem solid black;
+}
+
+.menu-item p {
+    margin-bottom: .5rem;
+}
+
+.menu-item-name{
+    font-family: 'angarsRunes';
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#menu-div {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#hours-div {
+    font-size: 1.5rem;
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#contact-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: 5%;
+}
+
+#contact-div p {
+    font-size: 1.5rem;
+}
